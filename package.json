@@ -1,12 +1,13 @@
 {
   "name": "recipeapp",
-  "homepage": "https://github.com/Roma3051/assignment.git",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://Roma3051.github.io/recipeapp",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "start": "vite",
     "lint": "eslint .",
